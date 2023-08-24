@@ -1,0 +1,125 @@
+.main {
+}
+
+.Descricao {
+  padding: 85px 100px 85px 125px;
+}
+
+.Inicio {
+  font-family: 'Roboto Mono';
+  background-color: #6A2914;
+  border-radius: 0px 0px 60px 60px;
+  padding: 85px 100px 85px 125px;
+}
+
+.Texto {
+  max-width: 730px;
+}
+
+.Descricao{
+  max-width: 530px;
+}
+
+.Inicio h1 {
+  color: #FFF;
+  font-family: 'Roboto Mono';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.2%; /* 77.568px */
+  text-transform: uppercase;
+}
+
+.Inicio h1 a {
+  color: #fff;
+}
+
+.Inicio p {
+  color: #FFF;
+  font-family: "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 38.4px */
+  letter-spacing: -0.48px;
+  max-width: 570px;
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+
+
+
+
+
+
+/* Tela grande */
+@media (min-width: 1441px){
+  
+}
+
+/* Tela média */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  
+}
+
+/* Tablet grande */
+@media (min-width: 835px) and (max-width: 1280px) {
+  
+}
+
+/* Tablet médio */
+@media (min-width: 745px) and (max-width: 834px) {
+  
+}
+
+/* Celular grande */
+@media (min-width: 431px) and (max-width: 744px) {
+  
+}
+
+/* Celular médio */
+@media (min-width: 376px) and (max-width: 430px) {
+  
+}
+
+/* Celular pequeno */
+@media (max-width: 375px) {
+  
+}
